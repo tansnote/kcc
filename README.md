@@ -13,9 +13,6 @@ KCleaner 是一个可以清理iOS上App创建的本地钥匙串项目。它可�
 在release下载最新tipa文件，并使用trollstore安装（只支持trollstore）。       
 如果你需要解决设备封禁问题，**仅清空钥匙串内容、清空app数据是没有用的，需要卸载app本体后重启一次**，这个操作可以解决大部分问题，因为设备指纹的实现不仅有这一个方法！      
 如果开启了icloud钥匙串同步，需要先关闭来防止云端的内容重新被下载到本地。
+## 星星统计
 
-
-#### 作者留言（用爱发电）       
-我买了一台Macbook Pro M3 Max （128GB内存），将近4w的电脑去制作这个工具。**确实，贵的电脑做出来的东西才能有质量。**       
-我从来没想过收费，也从来没有给工具里加入广告和任何SDK，我认为这种东西就应该免费和简洁，能帮助更多有这些需求的人。     
-如果你真的喜欢这个工具，可以捐赠我，让我有机会能买更好、更大内存的电脑，去制作新的工具。    
+[![Star History Chart](https://api.star-history.com/svg?repos=tansnote/kcc&type=Date)](https://star-history.com/#tansnote/kcc&Date)
