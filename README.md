@@ -10,9 +10,10 @@ KCleaner 是一个可以清理iOS上App创建的本地钥匙串项目。它可�
 · 清空Nvram变量   
 · 移除已经登录的Apple id   
 · 强制恢复出厂设置      
-· 禁止第三方App注册Hotspot helper，防止连接Wifi后App自启动。
+· 禁止第三方App注册Hotspot helper，防止连接Wifi后App自启动。      
+· 清理iOS缓存文件并阻止相关守护进程。
 ## 使用
-在release下载最新ipa文件，并使用trollstore安装（只支持trollstore）。       
+在release下载最新的tipa文件，并使用trollstore安装（只支持trollstore）。       
 如果你需要解决设备封禁问题，**仅清空钥匙串内容、清空app数据是没有用的，需要卸载app本体后重启一次**，这个操作可以解决大部分问题，因为设备指纹的实现不仅有这一个方法！      
 如果开启了icloud钥匙串同步，需要先关闭来防止云端的内容重新被下载到本地。
 ## 联系我
