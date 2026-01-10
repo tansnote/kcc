@@ -14,9 +14,18 @@ KCleaner 是一个可以清理iOS上App创建的本地钥匙串项目。它可�
 · 清理iOS缓存文件并阻止相关守护进程。          
 · 重置设备广告标识符(IDFA)和App标识(IDFV)。
 ## 使用
-在[Release](https://github.com/tansnote/kcc/releases)下载最新的kcc.tipa文件，并使用trollstore安装（只支持trollstore）。       
+1.使用Trollstore安装：         
+在[Release](https://github.com/tansnote/kcc/releases)下载最新的kcc.tipa文件并安装（只支持Trollstore）。       
+2.iOS13越狱设备：         
+在[Release](https://github.com/tansnote/kcc/releases)下载最新的kcc.deb文件并安装（只支持iOS13的越狱设备）。    
+
 如果你需要解决设备封禁问题，**仅清空钥匙串内容、清空app数据是没有用的，需要卸载app本体后重启一次**，这个操作可以解决大部分问题，因为设备指纹的实现不仅有这一个方法！      
 如果开启了icloud钥匙串同步，需要先关闭来防止云端的内容重新被下载到本地。
+## App预览
+[![截图1](https://github.com/tansnote/kcc/blob/main/1.jpg)]()
+[![截图2](https://github.com/tansnote/kcc/blob/main/2.jpg)]()
+[![截图3](https://github.com/tansnote/kcc/blob/main/3.jpg)]()
+
 ## 联系我
 公众微信号：Tansnotes
 [![公众号二维码](https://github.com/tansnote/kcc/blob/main/wx.png)]()
