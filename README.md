@@ -1,36 +1,54 @@
-# 🔑 用于iPhone上的 KCleaner 钥匙链（Keychain）清理工具
-KCleaner 是一个可以清理iOS上App创建的本地钥匙串项目。它可以轻松帮你删除任何App创建的钥匙链项目，摆脱应用跟踪、设备被封禁问题。比mac上的”钥匙串“App更好，它可以访问本地所有的钥匙串，尽管开发者没有开启同步功能。
-## 功能
-· 一键清空所有钥匙链     
-· 根据关键词删除钥匙链中匹配的内容    
-· 查看和删除单独App创建的钥匙链   
-· 查看App创建的钥匙链项目的内容 
-· 导出/导入App的钥匙串项目
-· 清理已经卸载的App残留下的钥匙链  
-· 屏蔽iOS和配件的OTA升级   
-· 任意设定电池健康度   
-· 清空Nvram变量   
-· 移除已经登录的Apple id   
-· 强制恢复出厂设置      
-· 禁止第三方App注册Hotspot helper，防止连接Wifi后App自启动。      
-· 清理iOS缓存文件并阻止相关守护进程。          
-· 重置设备广告标识符(IDFA)和App标识(IDFV)。
-## 使用
-1.使用Trollstore安装：         
-在[Release](https://github.com/tansnote/kcc/releases)下载最新的kcc.tipa文件并安装（只支持Trollstore）。       
-2.iOS13越狱设备：         
-在[Release](https://github.com/tansnote/kcc/releases)下载最新的kcc.deb文件并安装（只支持iOS13的越狱设备）。    
+# 🔑 KCleaner — Keychain Management Tool for iOS
 
-如果你需要解决设备封禁问题，**仅清空钥匙串内容、清空app数据是没有用的，需要卸载app本体后重启一次**，这个操作可以解决大部分问题，因为设备指纹的实现不仅有这一个方法！      
-如果开启了icloud钥匙串同步，需要先关闭来防止云端的内容重新被下载到本地。
-## App预览
-[![截图1](https://github.com/tansnote/kcc/blob/main/1.jpg)]()
-[![截图2](https://github.com/tansnote/kcc/blob/main/2.jpg)]()
-[![截图3](https://github.com/tansnote/kcc/blob/main/3.jpg)]()
+English | [简体中文](README.zh-CN.md)
 
-## 联系我
-公众微信号：Tansnotes
-[![公众号二维码](https://github.com/tansnote/kcc/blob/main/wx.png)]()
-## 星星统计
+KCleaner is a tool for managing local Keychain items created by apps on iOS. It makes it easy to create, edit, delete, and export Keychain items created by any app, helping you address issues related to app tracking or device bans. Unlike Keychain Access on macOS, KCleaner can access all local Keychain items, even when the developer has not enabled Keychain syncing.
+
+## Features
+
+- Delete all Keychain items
+- Delete Keychain items that match a keyword
+- View and delete Keychain items created by individual apps
+- Inspect the contents of Keychain items created by apps
+- Export and import an app's Keychain items
+- Remove Keychain items left behind by uninstalled apps
+- Block OTA updates for iOS and accessories
+- Set a custom battery health value
+- Clear NVRAM variables
+- Remove the signed-in Apple ID
+- Force a factory reset
+- Prevent third-party apps from registering as Hotspot Helpers and launching automatically after connecting to Wi-Fi
+- Clean iOS cache files and block the related daemons
+- Reset the device advertising identifier (IDFA) and identifier for vendor (IDFV)
+
+## Installation
+
+### TrollStore
+
+Download the latest `kcc.tipa` file from [Releases](https://github.com/tansnote/kcc/releases) and install it with TrollStore. This package supports TrollStore only.
+
+### Jailbroken iOS 13 devices
+
+Download the latest `kcc.deb` file from [Releases](https://github.com/tansnote/kcc/releases) and install it on a jailbroken iOS 13 device. This package supports jailbroken iOS 13 devices only.
+
+> [!IMPORTANT]
+> If you are trying to resolve a device ban, clearing the Keychain and app data alone is not enough. You also need to uninstall the app itself and restart the device once. This resolves most cases because device fingerprinting can use more than one method.
+
+> [!NOTE]
+> If iCloud Keychain syncing is enabled, turn it off first to prevent cloud data from being downloaded to the device again.
+
+## Preview
+
+![KCleaner screenshot 1](1.jpg)
+![KCleaner screenshot 2](2.jpg)
+![KCleaner screenshot 3](3.jpg)
+
+## Contact
+
+WeChat official account: `Tansnotes`
+
+![WeChat official account QR code](wx.png)
+
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tansnote/kcc&type=Date)](https://star-history.com/#tansnote/kcc&Date)
